@@ -175,7 +175,7 @@ Text label="Heat pumpt" icon="temperature" {
   Default item=stiebel_eltron_dewpoint_fek icon="temperature"
   Default item=stiebel_eltron_source_temp icon="temperature"
  }
- Frame label="Paramters" {
+ Frame label="Parameters" {
   Setpoint item=stiebel_eltron_heating_comfort_temp icon="temperature" step=1 minValue=5 maxValue=30
   Setpoint item=stiebel_eltron_heating_eco_temp icon="temperature" step=1 minValue=5 maxValue=30
   Setpoint item=stiebel_eltron_water_comfort_temp icon="temperature" step=1 minValue=10 maxValue=60
